@@ -1,0 +1,15 @@
+html
+  head
+    title Simple template
+    style
+      include style.css
+    script(defer,  src="https://use.fontawesome.com/releases/v5.0.6/js/all.js")
+  body
+    div.container
+      h1 Welcome
+      h2 to our store
+      a(href="/auth/google") Sign in
+      p
+        span with
+        i.fab.fa-google
+    include ./footer.pug

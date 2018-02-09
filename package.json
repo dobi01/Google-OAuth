@@ -1,0 +1,27 @@
+{
+  "name": "task-17.7",
+  "version": "1.0.0",
+  "description": "learning Express.js - logging using Google account credentials",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobi01/task-17.7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dobi01/task-17.7/issues"
+  },
+  "homepage": "https://github.com/dobi01/task-17.7#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "pug": "^2.0.0-rc.4"
+  }
+}

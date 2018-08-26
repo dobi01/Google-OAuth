@@ -1,9 +1,12 @@
 html
   head
-    title Simple template
+    title Logged! :)
     style
       include style.css
   body
     div.container
-      h1.after Congrats, you've made it!
+      h1.after Congrats 
+      h2 #{user.displayName}! 
+      br
+      h3 You've made it :)
     include ./footer.pug

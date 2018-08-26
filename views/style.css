@@ -7,21 +7,33 @@
   padding: 0;
 }
 
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
 .container {
-  width: 200px;
-  height: 200px;
-  margin: 15% auto;
-  border: .5px solid #000;
+  width: 300px;
+  height: 300px;
+  border: .5px solid #aaa;
+  border-radius: 2%;
+  box-shadow: 1px 1px 5px #aaa;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
 
 h1 {
   font-size: 1.5em;
   padding: 0 10px;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 h2 {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .after {
@@ -36,4 +48,14 @@ a {
 p svg {
   padding-left: 5px;
   color: #4285F4;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 25px;
+  width: 100%;
 }
